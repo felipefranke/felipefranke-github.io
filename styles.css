@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Prata&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Prata&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,800&display=swap');
 
 body {
 	background-color: #1c2331;
@@ -10,24 +12,24 @@ main {
 }
 
 h1 {
-	font-family: 'Prata', serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 2px;
 }
 
 h2 {
-	font-family: 'Italiana', serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 2px;
 }
 
 header li {
-	font-family: 'Prata', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	font-size: 3vw;
 }
 
 p {
-	font-family: 'Italiana', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	text-align: justify;
 	letter-spacing: 2px;
@@ -125,6 +127,7 @@ body {
 }
 
 
+
 /*responsive*/
 
 @media (min-width:768px) and (max-width:991px){
@@ -181,7 +184,27 @@ header li { font-size: 1em;}
 	color: #fff;
 }
 
-.carousel-caption {
-	background-color: #252525af;
-	width: 100vw;
+#carousel-text {
+	background-color: #252525b2;
+	width: 100%;
+	margin: auto;
+}
+
+#carousel-text p {
+	font-weight: 200;
+	color: #fff;
+}
+#carousel-text h5 {
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 1em;
+}
+button a, a:active, a:hover, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+#voltar {
+	background-color: #4e0000; 
+
 }
