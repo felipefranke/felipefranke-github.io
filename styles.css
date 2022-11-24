@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Prata&display=swap');
 
 body {
-	background-color: black;
+	background-color: #1c2331;
 }
 
 main {
@@ -31,7 +31,7 @@ p {
 	font-weight: lighter;
 	text-align: justify;
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 1px black;
+	/* text-shadow: 1px 1px 1px black; */
 }
 .container-fluid {
     max-width: 100vw;
@@ -140,6 +140,7 @@ body {
   padding: 90px 15px;
   text-align: center;
 }
+
 .left h2 {
   font-size: 25px;
 }
@@ -165,6 +166,22 @@ footer a:hover {
 	color: white;
 }
 
-.background {
+/* .background {
 	background-color: #1c2331;
+} */
+
+@media (min-width:768px) {
+header li { font-size: 1em;}
+}
+
+#bairro p {
+	color: #fff;
+}
+#bairro h2 {
+	color: #fff;
+}
+
+.carousel-caption {
+	background-color: #252525af;
+	width: 100vw;
 }
