@@ -67,6 +67,10 @@ p {
 	cursor: pointer;
 	border-radius: 5px;
   }
+  .orange-button a:hover {
+	text-decoration: none;
+	color: #fff;
+  }
  
   #fale-conosco {
 	-webkit-box-align: center;
@@ -568,4 +572,23 @@ button a, a:active, a:hover, a:visited {
 
 #pq_curtimos strong {
 	color: #ddd;
+}
+
+#menu li a {
+	color: #000;
+}
+
+#formulario h2 {
+	font-weight: 800;
+	color: #ee6900;
+	padding: 0 20px 0 27px;
+	font-size: 1.5em;
+	margin-bottom: 0.3em;
+}
+
+#formulario p {
+		padding: 20px 30px;
+		text-align: justify;
+		font-weight: 500;
+		color: #fff;
 }
