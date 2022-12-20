@@ -251,18 +251,21 @@ header li { font-size: 1em;}
 }
 
 #carousel-text p {
-	font-weight: 400;
+	font-weight: 500;
 	color: #fff;
 	line-height: 2.5;
 	margin-bottom: 2em;
+
 }
-#carousel-text h5 {
+#carousel-text h5 a {
 	font-weight: 600;
-	color: #fff;
+	color: #ee6900;;
 	margin-bottom: 1em;
 	text-align: left;
 	line-height: 1.5;
 	font-size: 40px;
+	text-shadow: 5px 5px 5px #000;
+	text-decoration: none;
 }
 button a, a:active, a:hover, a:visited {
 	text-decoration: none;
@@ -541,6 +544,7 @@ button a, a:active, a:hover, a:visited {
 	background-color: #eee;
 	border-radius: 5px;
 	box-shadow: 7px 7px 15px #333;
+	min-height: 350px;
 }
 
 .motivos p {
