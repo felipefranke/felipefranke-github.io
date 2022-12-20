@@ -6,6 +6,10 @@ body {
 	background-color: #1c2331;
 }
 
+#max-width {
+	max-width: 1200px;
+}
+
 header {
 	max-width: 1200px;
 	margin: auto;
@@ -451,8 +455,8 @@ button a, a:active, a:hover, a:visited {
 	width: 100%;
 	text-align: left;
 }
-#descricao h2, h3, h4, h5, p {
-	text-align: justify;
+#descricao h2, h3, h4, h5 {
+	text-align: left;
 }
 
 #descricao h2 {
@@ -481,6 +485,7 @@ button a, a:active, a:hover, a:visited {
 
 #descricao p {
 	padding: 0 10px 0 10px;
+	text-align: justify;
 }
 
 #descricao strong {
