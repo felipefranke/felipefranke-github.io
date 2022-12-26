@@ -596,6 +596,9 @@ button a:hover {
 .texto_chamada_laranja a:hover {
 	color: #ee6900;
 }
+.texto_chamada_laranja a, a:active {
+	color: #fff;
+}
 
 /* ROXO
  */
@@ -629,6 +632,9 @@ button a:hover {
 	color: #b100cd;
 }
 
+.texto_chamada_roxo a, a:active {
+	color: #fff;
+}
 
 /* VERDE */
 
