@@ -23,10 +23,10 @@ header {
 #menu-botao {
 	font-size: 30px;
 }
-#header {
+/* #header {
 	background: #02577a;
 	color: white;
-}
+} */
 
 main {
 	max-width: 1200px;
@@ -63,15 +63,14 @@ p {
 	padding: 0;
 
 }
-.orange-button {
-	background-color: #ee6900;
+.botao_saiba_mais {
 	color: white;
 	padding: 5px 15px 5px 15px;
 	border: none;
 	cursor: pointer;
 	border-radius: 5px;
   }
-  .orange-button a:hover {
+  .botao_saiba_mais a:hover {
 	text-decoration: none;
 	color: #fff;
   }
@@ -85,7 +84,7 @@ p {
     bottom: 25px;
     width: 245px;
     height: 50px;
-    background: rgb(238, 105, 0);
+    
     border-radius: 36px;
     border: 2px solid rgb(255, 255, 255);
     right: 50%;
@@ -94,6 +93,7 @@ p {
 	text-align: center;
 	padding-top: 10px;
 }
+
 
 #fale-conosco a:link, a:visited, a:active {
 
@@ -263,7 +263,6 @@ header li { font-size: 1em;}
 }
 #carousel-text h5 a {
 	font-weight: 600;
-	color: #ee6900;;
 	margin-bottom: 1em;
 	text-align: left;
 	line-height: 1.5;
@@ -277,7 +276,6 @@ button a, a:active, a:hover, a:visited {
 }
 
 #voltar {
-	background-color: #ee6900;
 	border-color: #fff;
 
 }
@@ -365,7 +363,7 @@ button a, a:active, a:hover, a:visited {
   } */
   
   #contato {
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.2);
   }
 
   #hero .hero-container {
@@ -450,8 +448,6 @@ button a, a:active, a:hover, a:visited {
 /*DESCRIÇÃO DO IMÓVEL */
 
 #descricao {
-	background-color: #212529;
-	color: #fff;
 	width: 100%;
 	text-align: left;
 }
@@ -485,7 +481,7 @@ button a, a:active, a:hover, a:visited {
 
 #descricao p {
 	padding: 0 10px 0 10px;
-	text-align: justify;
+	text-align: left;
 }
 
 #descricao strong {
@@ -496,7 +492,6 @@ button a, a:active, a:hover, a:visited {
 	display: flex;
     -webkit-box-align: center;
     padding: 20px;
-    border-bottom: 2px solid #999;
     flex-wrap: wrap;
     align-items: flex-start;
     -webkit-box-pack: start;
@@ -513,6 +508,7 @@ button a, a:active, a:hover, a:visited {
 	min-height: 410px;
 }
 
+
 .motivos p {
 	padding: 20px 30px;
 	text-align: left;
@@ -521,14 +517,9 @@ button a, a:active, a:hover, a:visited {
 
 .motivos h2 {
 	font-weight: 800;
-	color: #ee6900;
 	padding: 20px 20px 0 27px;
 	font-size: 1.5em;
 	margin-bottom: 0.3em;
-}
-
-.curtimos {
-	background-color: #ee6900;
 }
 
 #pq_curtimos h1 {
@@ -538,19 +529,16 @@ button a, a:active, a:hover, a:visited {
 	font-size: 3.3em;
 }
 
-
-
 #pq_curtimos strong {
 	color: #ddd;
 }
 
 #menu li a {
-	color: #000;
+	color: #212529;
 }
 
 #formulario h2 {
 	font-weight: 800;
-	color: #ee6900;
 	padding: 0 20px 0 27px;
 	font-size: 1.5em;
 	margin-bottom: 0.3em;
@@ -562,3 +550,67 @@ button a, a:active, a:hover, a:visited {
 		font-weight: 500;
 		color: #fff;
 }
+
+/* CORES */
+
+.fundo {
+	background-color: #212529;
+}
+
+/* LARANJA */
+
+.laranja {
+	background: #ee6900;
+}
+.texto_laranja h2 {
+	color: #ee6900;
+}
+
+.texto_laranja h5 a {
+	color: #ee6900;
+}
+
+.laranja_complementar {
+	background-color: #212529;
+}
+.borda_laranja {
+	border-bottom: 2px solid #999;
+}
+.texto_laranja_complementar {
+	color: #fff;
+}
+
+/* ROXO
+ */
+.roxo {
+	background: #b100cd;
+}
+.texto_roxo h2 {
+	color: #b100cd;
+}
+
+.texto_roxo h5 a {
+	color: #b100cd;
+}
+
+.roxo_complementar {
+	background: rgb(193,193,193);
+	background: linear-gradient(210deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%);
+}
+
+.borda_roxo {
+	border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
+}
+
+.texto_roxo_complementar {
+	color: #282828;
+	font-weight: 600;
+}
+
+
+/* VERDE */
+
+
+
+/* AZUL */
