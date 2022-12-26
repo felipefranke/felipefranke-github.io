@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,800&display=swap');
 
+
 body {
 	background-color: #1c2331;
 }
@@ -47,7 +48,7 @@ header li {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 16px;
 }
 
 p {
@@ -55,6 +56,7 @@ p {
 	font-weight: lighter;
 	text-align: justify;
 	letter-spacing: 2px;
+	font-size: 20px;
 	/* text-shadow: 1px 1px 1px black; */
 }
 .container-fluid {
@@ -70,11 +72,11 @@ p {
 	cursor: pointer;
 	border-radius: 5px;
   }
-  .botao_saiba_mais a:hover {
+  /* .botao_saiba_mais a:hover {
 	text-decoration: none;
 	color: #fff;
   }
- 
+  */
   #fale-conosco {
 	-webkit-box-align: center;
     align-items: center;
@@ -140,16 +142,16 @@ body {
 	background: #e8e8e8;
 }
 .form-area {
-	padding-top: 7%;
+	padding-top: 2%;
 }
 .row.single-form {
 	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
 }
 .left {
-	padding: 200px 98px;
+	padding: 100px 98px;
 }
 .left h2 {
-	ffont-family: 'Prata', serif;
+	font-family: 'Prata', serif;
 	color: #fff;
 	font-size: 40px;
 }
@@ -162,7 +164,7 @@ body {
     background: #fff;
 }
 .right {
-	padding: 70px 100px;
+	padding: 50px 50px;
 	position: relative;
 }
 .right i {
@@ -205,7 +207,7 @@ body {
 
 @media (max-width:767px){
     .left {
-  padding: 90px 15px;
+  padding: 50px 15px;
   text-align: center;
 }
 
@@ -228,10 +230,10 @@ body {
 
 footer a, a:active, a:visited {
 	text-decoration: none;
-	color: white;
+	color: #fff;
 }
 footer a:hover {
-	color: white;
+	color: #fff;
 }
 
 /* .background {
@@ -242,12 +244,12 @@ footer a:hover {
 header li { font-size: 1em;}
 }
 
-#bairro p {
+/* #bairro p {
 	color: #fff;
 }
 #bairro h2 {
 	color: #fff;
-}
+} */
 
 #carousel-text {
 	/* background-color: #252525b2; */
@@ -270,9 +272,14 @@ header li { font-size: 1em;}
 	text-shadow: 5px 5px 5px #000;
 	text-decoration: none;
 }
-button a, a:active, a:hover, a:visited {
+button a, a:active, a:visited {
 	text-decoration: none;
 	color: #fff;
+}
+button a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
 }
 
 #voltar {
@@ -363,7 +370,7 @@ button a, a:active, a:hover, a:visited {
   } */
   
   #contato {
-	background: rgba(0, 0, 0, 0.2);
+	/* background: rgba(0, 0, 0, 0.2); */
   }
 
   #hero .hero-container {
@@ -462,8 +469,8 @@ button a, a:active, a:hover, a:visited {
 }
 
 #descricao h3 {
-	font-weight: 300;
-	font-size: 1em;
+	font-weight: 00;
+	font-size: 16px;
 	padding: 0 10px;
 }
 
@@ -518,7 +525,7 @@ button a, a:active, a:hover, a:visited {
 .motivos h2 {
 	font-weight: 800;
 	padding: 20px 20px 0 27px;
-	font-size: 1.5em;
+	font-size: 25px;
 	margin-bottom: 0.3em;
 }
 
@@ -526,7 +533,7 @@ button a, a:active, a:hover, a:visited {
 	font-weight: 800;
 	color: #212529;
 	padding: 10px 20px;
-	font-size: 3.3em;
+	font-size: 60px;
 }
 
 #pq_curtimos strong {
@@ -540,21 +547,21 @@ button a, a:active, a:hover, a:visited {
 #formulario h2 {
 	font-weight: 800;
 	padding: 0 20px 0 27px;
-	font-size: 1.5em;
+	font-size: 30px;
 	margin-bottom: 0.3em;
 }
 
 #formulario p {
-		padding: 20px 30px;
+		padding: 20px 30px 0 0;
 		text-align: justify;
 		font-weight: 500;
-		color: #fff;
+		color: #212529;
 }
 
 /* CORES */
 
 .fundo {
-	background-color: #212529;
+	background-color: #fff;
 }
 
 /* LARANJA */
@@ -571,13 +578,23 @@ button a, a:active, a:hover, a:visited {
 }
 
 .laranja_complementar {
-	background-color: #212529;
+	/* background-color: #212529; */
+	background: rgb(193,193,193);
+	background: linear-gradient(210deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%);
 }
 .borda_laranja {
-	border-bottom: 2px solid #999;
+	/* border-bottom: 2px solid #999; */
+	border-bottom: 1px solid;
+  	border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
 }
 .texto_laranja_complementar {
-	color: #fff;
+	/* color: #fff; */
+	color: #282828;
+	font-weight: 600;
+}
+
+.texto_chamada_laranja a:hover {
+	color: #ee6900;
 }
 
 /* ROXO
@@ -600,12 +617,16 @@ button a, a:active, a:hover, a:visited {
 
 .borda_roxo {
 	border-bottom: 1px solid;
-  border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
+  	border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
 }
 
 .texto_roxo_complementar {
 	color: #282828;
 	font-weight: 600;
+}
+
+.texto_chamada_roxo a:hover {
+	color: #b100cd;
 }
 
 
@@ -614,3 +635,9 @@ button a, a:active, a:hover, a:visited {
 
 
 /* AZUL */
+
+
+
+.link_preto {
+	color: #000;
+}
