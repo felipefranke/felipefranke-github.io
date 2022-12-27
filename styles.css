@@ -323,7 +323,7 @@ button a:hover {
 		text-align: left;
 		line-height: 1.25;
 		font-size: 40px;
-}
+	}
 }
 
 @media (min-width:1090px) {
@@ -337,7 +337,7 @@ button a:hover {
 		padding-bottom: 1.25rem;
 		color: #fff;
 		text-align: center;
-}
+	}
 }
 
 .carousel-text p {
@@ -642,7 +642,41 @@ button a:hover {
 
 /* AZUL */
 
+.azul {
+	background: #2ea7fd;
+}
+.texto_azul h2 {
+	color: #2ea7fd;
+}
 
+.texto_azul h5 a {
+	color: #2ea7fd;
+}
+
+.azul_complementar {
+	background: rgb(193,193,193);
+	background: linear-gradient(210deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%);
+}
+
+.borda_azul {
+	border-bottom: 1px solid;
+  	border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
+}
+
+.texto_azul_complementar {
+	color: #282828;
+	font-weight: 600;
+}
+
+.texto_chamada_azul a:hover {
+	color: #2ea7fd;
+}
+
+.texto_chamada_azul a, a:active {
+	color: #fff;
+}
+
+/* Fim das cores */
 
 .link_preto {
 	color: #000;
