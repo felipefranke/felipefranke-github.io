@@ -441,7 +441,7 @@ button a:hover {
   /* fade in */
   .fade-in {
 	opacity: 0;
-	animation: fadeIn 4s ease 2.5s 1 forwards;
+	animation: fadeIn 3s ease 1.5s forwards;
   }
   @keyframes fadeIn {
 	0% {
@@ -507,7 +507,7 @@ button a:hover {
 }
 
 .motivos {
-	width: 350px;
+	width: 75%;
 	margin: 40px auto;
 	background-color: #eee;
 	border-radius: 5px;
@@ -637,7 +637,39 @@ button a:hover {
 }
 
 /* VERDE */
+.verde {
+	background: #2eaf7d;
+}
+.texto_verde h2 {
+	color: #2eaf7d;
+}
 
+.texto_verde h5 a {
+	color: #2eaf7d;
+}
+
+.verde_complementar {
+	background: rgb(193,193,193);
+	background: linear-gradient(210deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%);
+}
+
+.borda_verde {
+	border-bottom: 1px solid;
+  	border-image: linear-gradient(45deg, rgba(193,193,193,1) 7%, rgba(253,253,253,1) 43%, rgba(168,168,168,1) 74%) 1;
+}
+
+.texto_verde_complementar {
+	color: #282828;
+	font-weight: 600;
+}
+
+.texto_chamada_verde a:hover {
+	color: #2eaf7d;
+}
+
+.texto_chamada_verde a, a:active {
+	color: #fff;
+}
 
 
 /* AZUL */
@@ -681,3 +713,25 @@ button a:hover {
 .link_preto {
 	color: #000;
 }
+
+
+
+/* mais procurados */
+
+.cards-wrapper {
+	display: flex;
+	justify-content: center;
+  }
+  .card img {
+	max-width: 100%;
+	max-height: 100%;
+  }
+  .card {
+	margin: 0 0.5em;
+	box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+	border: none;
+	border-radius: 0;
+  }
+  .sonho {
+	  padding: 1em;
+  }
