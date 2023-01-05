@@ -469,7 +469,7 @@ button a:hover {
 }
 
 #descricao h3 {
-	font-weight: 00;
+	font-weight: 500;
 	font-size: 16px;
 	padding: 0 10px;
 }
@@ -540,6 +540,24 @@ button a:hover {
 	color: #ddd;
 }
 
+#sonhar h1 {
+	font-weight: 800;
+	color: #212529;
+	padding: 10px 20px;
+	font-size: 60px;
+}
+
+#sonhar strong {
+	color: #ee6900;
+}
+
+#procura h1 {
+	font-weight: 600;
+	color: #212529;
+	padding: 10px 20px;
+	font-size: 30px;
+}
+
 #menu li a {
 	color: #212529;
 }
@@ -562,6 +580,22 @@ button a:hover {
 
 .fundo {
 	background-color: #fff;
+}
+
+.cinza {
+	background: #28282883;
+}
+
+.card-body p {
+	font-weight: 400;
+	font-size: 1em;
+	text-align: left;
+	line-height: 200%;
+}
+
+.card img {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 /* LARANJA */
@@ -713,25 +747,3 @@ button a:hover {
 .link_preto {
 	color: #000;
 }
-
-
-
-/* mais procurados */
-
-.cards-wrapper {
-	display: flex;
-	justify-content: center;
-  }
-  .card img {
-	max-width: 100%;
-	max-height: 100%;
-  }
-  .card {
-	margin: 0 0.5em;
-	box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-	border: none;
-	border-radius: 0;
-  }
-  .sonho {
-	  padding: 1em;
-  }
