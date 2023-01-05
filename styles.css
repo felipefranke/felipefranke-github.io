@@ -506,8 +506,17 @@ button a:hover {
     /* min-height: 240px; */
 }
 
-.motivos {
+
+.melhores {
 	width: 75%;
+	margin: 40px auto;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 7px 7px 15px #333;
+}
+
+.motivos {
+	width: 81%;
 	margin: 40px auto;
 	background-color: #eee;
 	border-radius: 5px;
@@ -520,6 +529,7 @@ button a:hover {
 	padding: 20px 30px;
 	text-align: left;
 	font-weight: 500;
+	font-size: 16px;
 }
 
 .motivos h2 {
@@ -547,10 +557,10 @@ button a:hover {
 	font-size: 60px;
 }
 
-#sonhar strong {
-	color: #ee6900;
-}
 
+.sonhar_verde strong {
+	color: #2eaf7d
+}
 #procura h1 {
 	font-weight: 600;
 	color: #212529;
@@ -634,6 +644,10 @@ button a:hover {
 	color: #fff;
 }
 
+.sonhar_laranja strong {
+	color: #ee6900;
+}
+
 /* ROXO
  */
 .roxo {
@@ -668,6 +682,10 @@ button a:hover {
 
 .texto_chamada_roxo a, a:active {
 	color: #fff;
+}
+
+.sonhar_roxo strong {
+	color: #b100cd;
 }
 
 /* VERDE */
@@ -705,6 +723,9 @@ button a:hover {
 	color: #fff;
 }
 
+.sonhar_verde strong {
+	color: #2eaf7d;
+}
 
 /* AZUL */
 
@@ -742,8 +763,19 @@ button a:hover {
 	color: #fff;
 }
 
+.sonhar_azul strong {
+	color: #2ea7fd;
+}
+
 /* Fim das cores */
 
 .link_preto {
 	color: #000;
+}
+#vendido {
+	z-index: 10;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	max-width: 80%;
 }
