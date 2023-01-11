@@ -227,6 +227,9 @@ body {
 	padding: 12px 0;
 }   
 }
+footer {
+	/* max-width: 1200px; */
+}
 
 footer a, a:active, a:visited {
 	text-decoration: none;
@@ -458,6 +461,7 @@ button a:hover {
 	width: 100%;
 	text-align: left;
 }
+
 #descricao h2, h3, h4, h5 {
 	text-align: left;
 }
@@ -779,3 +783,249 @@ button a:hover {
 	left: 0px;
 	max-width: 80%;
 }
+
+.motivos_venda {
+	border-radius: 50px;
+	background: #e0e0e0;
+	box-shadow:  8px 8px 16px #8f8f8f,
+             -8px -8px 16px #ffffff;
+}
+
+.altura_max {
+	height: 100px;
+	width: 100%;
+	background-color: #000;
+}
+
+.borda {
+	border-radius: 15px;
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.capa_empreendimento {
+	position: relative;
+	height: 50vh;
+	/* background: rgb(46,167,253);
+background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 100%); */
+	background: rgb(46,167,253);
+	background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(19,122,222,0.8099614845938375) 47%, rgba(255,255,255,1) 100%);
+	margin-bottom: 10vh;
+	max-width: 1200px;
+}
+
+.titulo_capa_empreendimento {
+	position: absolute;
+	z-index: 2;
+	left: 5%;
+	top: 20%;
+}
+
+.titulo_capa_empreendimento h6 {
+	font-size: 4em;
+	color: #fff;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+.img_capa_empreendimento img {
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	max-height: 95%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+.info_empreendimento {
+	margin: 10px auto;
+	padding: 0 10%;
+}
+
+.info_empreendimento p {
+	font-size: .7em;
+	text-align: left;
+	font-weight: 400;
+	padding-left: 1vw;
+}
+
+.info_empreendimento i {
+	font-size: 1.5em;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+#oEmpreedimento {
+	width: 100%;
+	background-color: #000;
+	background-image: url(img/absoluto/absoluto_01.jpeg);
+	margin-bottom: .5em;
+}
+
+#oEmpreedimento h2 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-shadow: 5px 5px 5px #000;
+}
+
+#oEmpreedimento button {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+#o_empreendimento {
+	border-radius: 5px;
+	width: 96%;
+	background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+.box_shadow {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+}
+.gradiente {
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);
+	opacity: 1;
+}
+
+#oPredio {
+	width: 100%;
+	background-color: #000;
+	background-image: url(img/blanc/blanc_10.jpeg);
+	margin-bottom: .5em;
+	
+}
+
+#oPredio h2 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-shadow: 5px 5px 5px #000;
+}
+
+#oPredio button {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+#o_predio {
+	border-radius: 5px;
+	width: 96%;
+	background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+
+#a_sacasa {
+	border-radius: 5px;
+	width: 96%;
+	background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+
+#aSacada {
+	width: 100%;
+	background-color: #000;
+	background-image: url(img/absoluto/absoluto_01.jpeg);
+	margin-bottom: .5em;
+}
+
+#aSacada h2 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-shadow: 5px 5px 5px #000;
+}
+
+#aSacada button {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+#o_bairro {
+	border-radius: 5px;
+	width: 96%;
+	background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+
+
+/* Switch */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #027c08;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #027c08;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
