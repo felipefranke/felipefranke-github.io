@@ -846,7 +846,7 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 .info_empreendimento p {
 	font-size: .7em;
 	text-align: left;
-	font-weight: 400;
+	font-weight: 600;
 	padding-left: 1vw;
 }
 
@@ -858,7 +858,7 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 #oEmpreedimento {
 	width: 100%;
 	background-color: #000;
-	background-image: url(img/absoluto/absoluto_01.jpeg);
+	background-image: url(img/splendor/capa_empreendimento.jpg);
 	margin-bottom: .5em;
 }
 
@@ -897,7 +897,7 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 #oPredio {
 	width: 100%;
 	background-color: #000;
-	background-image: url(img/blanc/blanc_10.jpeg);
+	background-image: url(img/splendor/capa_predio.jpg);
 	margin-bottom: .5em;
 	
 }
@@ -937,7 +937,7 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 #aSacada {
 	width: 100%;
 	background-color: #000;
-	background-image: url(img/absoluto/absoluto_01.jpeg);
+	background-image: url(img/splendor/capa_sacada.jpg);
 	margin-bottom: .5em;
 }
 
@@ -957,7 +957,63 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 	margin-left: 2em;
 }
 
+#oBairro {
+	width: 100%;
+	background-color: #000;
+	background-image: url(img/splendor/capa_oBairro2.jpg);
+	margin-bottom: .5em;
+	
+	
+}
+
+#oBairro h2 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-shadow: 5px 5px 5px #000;
+}
+
+#oBairro button {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
 #o_bairro {
+	border-radius: 5px;
+	width: 96%;
+	background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+
+#apartamentoModelo {
+	width: 100%;
+	background-color: #000;
+	background-image: url(img/splendor/capa_modelo.jpg);
+	margin-bottom: .5em;
+}
+
+#apartamentoModelo h2 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-shadow: 5px 5px 5px #000;
+}
+
+#apartamentoModelo button {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+#apartamento_modelo {
 	border-radius: 5px;
 	width: 96%;
 	background: linear-gradient(145deg, #f0f0f0, #cacaca);
