@@ -731,6 +731,18 @@ button a:hover {
 	color: #2eaf7d;
 }
 
+.capa_empreendimento_verde {
+	position: relative;
+	height: 50vh;
+	/* background: rgb(46,167,253);
+background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 100%); */
+background: rgb(46,175,125);
+	background: linear-gradient(180deg, rgba(46,175,125,1) 0%, rgba(37,176,44,0.8099614845938375) 47%, rgba(255,255,255,1) 100%);
+	margin-bottom: 10vh;
+	max-width: 1200px;
+}
+
+
 /* AZUL */
 
 .azul {
@@ -771,6 +783,17 @@ button a:hover {
 	color: #2ea7fd;
 }
 
+.capa_empreendimento {
+	position: relative;
+	height: 50vh;
+	/* background: rgb(46,167,253);
+background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 100%); */
+	background: rgb(46,167,253);
+	background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(19,122,222,0.8099614845938375) 47%, rgba(255,255,255,1) 100%);
+	margin-bottom: 10vh;
+	max-width: 1200px;
+}
+
 /* Fim das cores */
 
 .link_preto {
@@ -805,16 +828,8 @@ button a:hover {
 
 }
 
-.capa_empreendimento {
-	position: relative;
-	height: 50vh;
-	/* background: rgb(46,167,253);
-background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 100%); */
-	background: rgb(46,167,253);
-	background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(19,122,222,0.8099614845938375) 47%, rgba(255,255,255,1) 100%);
-	margin-bottom: 10vh;
-	max-width: 1200px;
-}
+
+
 
 .titulo_capa_empreendimento {
 	position: absolute;
@@ -987,7 +1002,7 @@ background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 1
 	width: 96%;
 	background: linear-gradient(145deg, #f0f0f0, #cacaca);
 	box-shadow:  2px 2px 6px #bebebe,
-             -2px -2px 6px #ffffff;
+             	-2px -2px 6px #ffffff;
 }
 
 #apartamentoModelo {
