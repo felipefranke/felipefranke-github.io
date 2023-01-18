@@ -747,6 +747,17 @@ background: rgb(46,175,125);
 	max-width: 1200px;
 }
 
+.capa_empreendimento_roxo {
+	position: relative;
+	height: 50vh;
+	/* background: rgb(46,167,253);
+background: linear-gradient(180deg, rgba(46,167,253,1) 0%, rgba(255,255,255,1) 100%); */
+background: rgb(177,0,205);
+	background: linear-gradient(180deg, rgba(177,0,205,1) 0%, rgba(133,0,153,0.8099614845938375) 47%, rgba(255,255,255,1) 100%);
+	margin-bottom: 10vh;
+	max-width: 1200px;
+}
+
 
 /* AZUL */
 
