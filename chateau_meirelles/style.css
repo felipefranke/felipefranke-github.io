@@ -117,10 +117,11 @@ h2 {
 	border-radius: 15%;
 }
 footer {
-    background-color: #683c16;
+    
     text-align: center;
     height: 40px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (min-width:768px) and (max-width:991px){
